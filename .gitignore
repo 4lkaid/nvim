@@ -1,0 +1,7 @@
+*.swp
+.DS_Store
+.netrwhist
+_machine_specific.vim
+autoload/
+plugged/
+tmp/

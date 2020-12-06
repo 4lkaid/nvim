@@ -1,0 +1,34 @@
+{
+	"diagnostic.checkCurrentLine": true,
+	"diagnostic.displayByAle": false,
+	"diagnostic.errorSign": "\uf467",
+	"diagnostic.hintSign": "\uf864",
+	"diagnostic.infoSign": "\uf129",
+	"diagnostic.refreshAfterSave": false,
+	"diagnostic.refreshOnInsertMode": false,
+	"diagnostic.virtualText": true,
+	"diagnostic.virtualTextPrefix": " ❯❯❯ ",
+	"diagnostic.warningSign": "\uf071",
+	"explorer.git.showIgnored": true,
+	"explorer.file.column.indent.indentLine": true,
+	"explorer.file.showHiddenFiles": true,
+	"explorer.icon.enableNerdfont": true,
+	"languageserver": {
+		"golang": {
+			"command": "gopls",
+			"rootPatterns": ["go.mod"],
+			"filetypes": ["go"],
+			"initializationOptions": {
+				"usePlaceholders": true
+			}
+		},
+		"intelephense": {
+			"command": "intelephense",
+			"args": ["--stdio"],
+			"filetypes": ["php"],
+			"initializationOptions": {
+				"storagePath": "/tmp/intelephense"
+			}
+		}
+	}
+}
