@@ -4,7 +4,6 @@
 	"diagnostic.errorSign": "\uf467",
 	"diagnostic.hintSign": "\uf864",
 	"diagnostic.infoSign": "\uf129",
-	"diagnostic.refreshAfterSave": false,
 	"diagnostic.refreshOnInsertMode": false,
 	"diagnostic.virtualText": true,
 	"diagnostic.virtualTextPrefix": " ❯❯❯ ",
