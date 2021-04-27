@@ -71,15 +71,15 @@ noremap tq :tabclose<CR>
 vnoremap Y "+y
 
 call plug#begin('~/.config/nvim/plugged')
-Plug '4lkaid/vim-deus'
-Plug 'airblade/vim-gitgutter'
-Plug 'dhruvasagar/vim-table-mode', {'on': 'TableModeToggle', 'for': ['text', 'markdown', 'vim-plug']}
-Plug 'fatih/vim-go', {'for': ['go', 'vim-plug']}
-Plug 'iamcco/markdown-preview.nvim', {'do': 'cd app && npm install'}
-Plug 'itchyny/lightline.vim'
-Plug 'junegunn/fzf.vim'
-Plug 'mbbill/undotree'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'https://hub.fastgit.org/ajmwagar/vim-deus'
+Plug 'https://hub.fastgit.org/airblade/vim-gitgutter'
+Plug 'https://hub.fastgit.org/dhruvasagar/vim-table-mode', {'on': 'TableModeToggle', 'for': ['text', 'markdown', 'vim-plug']}
+Plug 'https://hub.fastgit.org/fatih/vim-go', {'for': ['go', 'vim-plug']}
+Plug 'https://hub.fastgit.org/iamcco/markdown-preview.nvim', {'do': 'cd app && npm install'}
+Plug 'https://hub.fastgit.org/itchyny/lightline.vim'
+Plug 'https://hub.fastgit.org/junegunn/fzf.vim'
+Plug 'https://hub.fastgit.org/mbbill/undotree'
+Plug 'https://hub.fastgit.org/neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 " === vim-deus
