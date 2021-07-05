@@ -213,7 +213,7 @@ nmap <Leader>e :CocCommand explorer<CR>
 nnoremap ff :call PHPFMT()<CR>
 function! PHPFMT()
 	if &filetype == 'php'
-		silent! execute '!php-cs-fixer fix % --config=/Users/4lkaid/Documents/php_cs/.php_cs'
+		silent! execute '!php-cs-fixer fix % --config=/Users/4lkaid/Documents/php_cs/.php-cs-fixer.php'
 	endif
 endfunction
 
